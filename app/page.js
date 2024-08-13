@@ -360,28 +360,34 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <div className="flex bg-white w-full py-10 max-sm:flex-col">
-        <div className="max-sm:w-full w-1/3 bg-[url('../images/group.png')] bg-no-repeat bg-[length:auto_100px] h-24 bg-center"></div>
-        <div className="max-sm:w-full w-1/6 text-center max-sm:my-5">
-          <h1 className="font-semibold text-lg">ABOUT US</h1>
-          <a className="block font-normal my-2" href="">Who we are</a>
-          <a className="block font-normal" href="">Work with us</a>
+      <div>
+
+        <div className="flex bg-white w-full py-10 max-sm:flex-col">
+          <div className="max-sm:w-full w-1/5 flex justify-center">
+            <img src="group.png"></img>
+          </div>
+          <div className="max-sm:w-full w-1/5 text-center max-sm:my-5">
+            <h1 className="font-semibold text-lg">ABOUT US</h1>
+            <a className="block font-normal my-2" href="">Who we are</a>
+            <a className="block font-normal" href="">Work with us</a>
+          </div>
+          <div className="w-1/5 max-sm:w-full text-center max-sm:my-5">
+            <h1 className="font-semibold text-lg">EXPLORE</h1>
+            <a className="block font-normal  my-2" href="">Batches and Classes</a>
+            <a className="block font-normal" href="">Community</a>
+          </div>
+          <div className="w-1/5 max-sm:w-full text-center max-sm:my-5">
+            <h1 className="font-semibold text-lg">LEGAL</h1>
+            <a className="block font-normal my-2" href="">Privacy Policy</a>
+            <a className="block font-normal" href="">Terms & Conditions</a>
+          </div>
+          <div className="w-1/5 max-sm:w-full text-center max-sm:my-5">
+            <h1 className="font-semibold text-lg">CONTACT</h1>
+            <a className="block font-normal my-2" href="">+92-2323092928</a>
+            <a className="block font-normal" href="">Icons</a>
+          </div>
         </div>
-        <div className="w-1/6 max-sm:w-full text-center max-sm:my-5">
-          <h1 className="font-semibold text-lg">EXPLORE</h1>
-          <a className="block font-normal  my-2" href="">Batches and Classes</a>
-          <a className="block font-normal" href="">Community</a>
-        </div>
-        <div className="w-1/6 max-sm:w-full text-center max-sm:my-5">
-          <h1 className="font-semibold text-lg">LEGAL</h1>
-          <a className="block font-normal my-2" href="">Privacy Policy</a>
-          <a className="block font-normal" href="">Terms & Conditions</a>
-        </div>
-        <div className="w-1/6 max-sm:w-full text-center max-sm:my-5">
-          <h1 className="font-semibold text-lg">CONTACT</h1>
-          <a className="block font-normal my-2" href="">+92-2323092928</a>
-          <a className="block font-normal" href="">Icons</a>
-        </div>
+        <div className="text-center h-10">© 2022 All Rights Reserved</div>
       </div>
 
     </div>
