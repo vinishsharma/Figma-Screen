@@ -23,7 +23,7 @@ export default function Home() {
 
       <div className="bg-sky-400 min-h-screen flex flex-col items-center justify-center bg-[url('../images/back.png')] bg-cover">
         <main className="flex flex-col items-center justify-center flex-1 text-center p-10">
-          <h1 className="text-6xl font-bold text-white mb-6 drop-shadow-3xl">Get your skills <br /> upgraded with us</h1>
+          <h1 className="text-6xl font-bold text-white mb-6 drop-shadow-3xl max-sm:text-5xl">Get your skills <br /> upgraded with us</h1>
           <p className="text-sm drop-shadow-4xl text-white mb-6">Transform your productivity and deliver high-quality solutions customers<br /> want, and respond to threats and opportunities.</p>
           <button className="bg-yellow-400 text-black py-3 px-16 rounded hover:bg-yellow-500">Register to get Exclusive offers</button>
           <p className="text-sm text-white mt-4">500+ Free and paid courses</p>
@@ -73,7 +73,10 @@ export default function Home() {
             <div className="bg-sky-500 rounded-2xl shadow flex-col h-[400px]">
               <div className="h-5/6 bg-white rounded-2xl w-full flex-col py-3 px-5">
                 <div className="flex justify-between">
-                  <div className="bg-[url('../images/cricket.png')] bg-no-repeat bg-[length:120px_auto] h-44 w-1/2"></div>
+                  <div className="h-44 w-1/2">
+                    <img src="cricket.png" className="h-40"></img>
+                  </div>
+
                   <div className="flex bg-sky-500 px-2 text-white text-sm h-6 rounded-full justify-center items-center">8:00 PM to 9:30PM</div>
                 </div>
                 <p className="bg-sky-500 inline-block px-1 py-1 rounded-2xl text-xs text-white">Boys & Girls</p>
@@ -88,7 +91,10 @@ export default function Home() {
               <div className="h-5/6 bg-white rounded-2xl w-full flex-col py-3 px-5">
 
                 <div className="flex justify-between">
-                  <div className="bg-[url('../images/basketball.png')] bg-no-repeat bg-[length:140px_auto] h-44 w-1/2"></div>
+                  <div className="h-44 w-1/2">
+                    <img src="basketball.png"></img>
+                  </div>
+
                   <div className="flex bg-sky-500 px-2 text-white text-sm h-6 rounded-full justify-center items-center">2hrs</div>
                 </div>
                 <p className="bg-sky-500 inline-block px-1 py-1 rounded-2xl text-xs text-white">Boys only</p>
@@ -103,7 +109,9 @@ export default function Home() {
               <div className="h-5/6 bg-white rounded-2xl w-full flex-col py-3 px-5">
 
                 <div className="flex justify-between">
-                  <div className="bg-[url('../images/football.png')] bg-no-repeat bg-[length:140px_auto] h-44 w-1/2"></div>
+                  <div className="h-44 w-1/2">
+                    <img src="football.png"></img>
+                  </div>
                   <div className="flex bg-sky-500 px-2 text-white text-sm h-6 rounded-full justify-center items-center">2hrs</div>
                 </div>
                 <p className="bg-sky-500 inline-block px-1 py-1 rounded-2xl text-xs text-white">Boys only</p>
@@ -118,7 +126,9 @@ export default function Home() {
               <div className="h-5/6 bg-white rounded-2xl w-full flex-col py-3 px-5">
 
                 <div className="flex justify-between">
-                  <div className="bg-[url('../images/badminton.png')] bg-no-repeat bg-[length:140px_auto] h-44 w-1/2"></div>
+                  <div className="h-44 w-1/2">
+                    <img src="badminton.png"></img>
+                  </div>
                   <div className="flex bg-sky-500 px-2 text-white text-sm h-6 rounded-full justify-center items-center">2hrs</div>
                 </div>
                 <p className="bg-sky-500 inline-block px-1 py-1 rounded-2xl text-xs text-white">Boys only</p>
@@ -147,7 +157,9 @@ export default function Home() {
               <div className="h-5/6 bg-white rounded-2xl w-full flex-col py-3 px-5">
 
                 <div className="flex justify-between">
-                  <div className="bg-[url('../images/math.png')] bg-no-repeat bg-[length:140px_auto] h-44 w-1/2"></div>
+                  <div className="h-44 w-1/2">
+                    <img src="math.png"></img>
+                  </div>
                   <div className="flex bg-sky-500 px-2 text-white text-sm h-6 rounded-full justify-center items-center">8:00 PM to 9:30PM</div>
                 </div>
                 <p className="bg-sky-500 inline-block px-1 py-1 rounded-2xl text-xs text-white">Boys & Girls</p>
@@ -162,7 +174,9 @@ export default function Home() {
               <div className="h-5/6 bg-white rounded-2xl w-full flex-col py-3 px-5">
 
                 <div className="flex justify-between">
-                  <div className="bg-[url('../images/science.png')] bg-no-repeat bg-[length:140px_auto] h-44 w-1/2"></div>
+                  <div className="h-44 w-1/2">
+                    <img src="science.png"></img>
+                  </div>
                   <div className="flex bg-sky-500 px-2 text-white text-sm h-6 rounded-full justify-center items-center">2hrs</div>
                 </div>
                 <p className="bg-sky-500 inline-block px-1 py-1 rounded-2xl text-xs text-white">Boys only</p>
@@ -177,7 +191,9 @@ export default function Home() {
               <div className="h-5/6 bg-white rounded-2xl w-full flex-col py-3 px-5">
 
                 <div className="flex justify-between">
-                  <div className="bg-[url('../images/history.png')] bg-no-repeat bg-[length:140px_auto] h-44 w-1/2"></div>
+                  <div className="h-44 w-1/2">
+                    <img src="history.png"></img>
+                  </div>
                   <div className="flex bg-sky-500 px-2 text-white text-sm h-6 rounded-full justify-center items-center">2hrs</div>
                 </div>
                 <p className="bg-sky-500 inline-block px-1 py-1 rounded-2xl text-xs text-white">Boys only</p>
@@ -190,9 +206,11 @@ export default function Home() {
 
             <div className="bg-sky-500 rounded-2xl shadow flex-col h-[400px]">
               <div className="h-5/6 bg-white rounded-2xl w-full flex-col py-3 px-5">
-                
+
                 <div className="flex justify-between">
-                <div className="bg-[url('../images/math.png')] bg-no-repeat bg-[length:140px_auto] h-44 w-1/2"></div>
+                  <div className="h-44 w-1/2">
+                    <img src="math.png"></img>
+                  </div>
                   <div className="flex bg-sky-500 px-2 text-white text-sm h-6 rounded-full justify-center items-center">2hrs</div>
                 </div>
                 <p className="bg-sky-500 inline-block px-1 py-1 rounded-2xl text-xs text-white">Boys only</p>
@@ -219,7 +237,9 @@ export default function Home() {
 
             <div className="bg-sky-500 rounded-2xl shadow flex-col h-[400px]">
               <div className="h-5/6 bg-white rounded-2xl w-full flex-col py-3 px-5">
-                <div className="bg-[url('../images/math.png')] bg-no-repeat bg-[length:140px_auto] h-44 w-1/2"></div>
+                <div className="h-44 w-1/2">
+                  <img src="math.png"></img>
+                </div>
                 <p className="bg-sky-500 inline-block px-1 py-1 rounded-2xl text-xs text-white">Boys & Girls</p>
                 <h1 className="text-[20px] font-semibold py-1">Mathematics</h1>
                 <h1 className="text-sm">On Monday & Thursday</h1>
@@ -230,7 +250,9 @@ export default function Home() {
 
             <div className="bg-sky-500 rounded-2xl shadow flex-col h-[400px]">
               <div className="h-5/6 bg-white rounded-2xl w-full flex-col py-3 px-5">
-                <div className="bg-[url('../images/science.png')] bg-no-repeat bg-[length:140px_auto] h-44 w-1/2"></div>
+                <div className="h-44 w-1/2">
+                  <img src="science.png"></img>
+                </div>
                 <p className="bg-sky-500 inline-block px-1 py-1 rounded-2xl text-xs text-white">Boys only</p>
                 <h1 className="text-[20px] font-semibold py-1">Science</h1>
                 <h1 className="text-sm">On Monday & Thursday</h1>
@@ -241,7 +263,9 @@ export default function Home() {
 
             <div className="bg-sky-500 rounded-2xl shadow flex-col h-[400px]">
               <div className="h-5/6 bg-white rounded-2xl w-full flex-col py-3 px-5">
-                <div className="bg-[url('../images/history.png')] bg-no-repeat bg-[length:140px_auto] h-44 w-1/2"></div>
+                <div className="h-44 w-1/2">
+                  <img src="history.png"></img>
+                </div>
                 <p className="bg-sky-500 inline-block px-1 py-1 rounded-2xl text-xs text-white">Boys only</p>
                 <h1 className="text-[20px] font-semibold py-1">History</h1>
                 <h1 className="text-sm">On Monday & Thursday</h1>
@@ -252,7 +276,9 @@ export default function Home() {
 
             <div className="bg-sky-500 rounded-2xl shadow flex-col h-[400px]">
               <div className="h-5/6 bg-white rounded-2xl w-full flex-col py-3 px-5">
-                <div className="bg-[url('../images/math.png')] bg-no-repeat bg-[length:140px_auto] h-44 w-1/2"></div>
+                <div className="h-44 w-1/2">
+                  <img src="math.png"></img>
+                </div>
                 <p className="bg-sky-500 inline-block px-1 py-1 rounded-2xl text-xs text-white">Boys only</p>
                 <h1 className="text-[20px] font-semibold py-1">Algebra</h1>
                 <h1 className="text-sm">On Monday & Thursday</h1>
@@ -266,40 +292,46 @@ export default function Home() {
 
           {/* Summer bummer vaccation */}
           <div className="bg-white px-10 py-10 my-16 bg-[url('../images/background.png')] bg-no-repeat bg-[length:850px_auto] h-full w-full bg-right-bottom">
-            <div className="flex">
-              <div className="bg-[url('../images/boy.png')] bg-no-repeat bg-[length:220px_auto] h-56 w-56"></div>
+            <div className="flex max-sm:flex-col">
+              <div className="h-56 w-56">
+                <img src="boy.png"></img>
+              </div>
               <div className="px-10">
                 <div className="text-3xl font-semibold ">Summer bummer vacations</div>
                 <div className="text-slate-500 text-lg">Some recent classes and webinars near your location.</div>
                 <br />
                 <br />
-                <div className="px-4 py-2 bg-sky-500 text-center text-white rounded-md inline-block">Learn Mathematics with best Teachers</div>
+                <div className="px-4 py-2 bg-sky-500 text-center text-white rounded-md inline-block ">Learn Mathematics with best Teachers</div>
               </div>
             </div>
-            <div className="flex w-full">
-              <div className="w-1/2 mx-2 my-6 px-8 py-8 bg-white border-gray-300 border-2 rounded-xl">
-                <div className="flex">
-                  <div className="bg-[url('../images/math.png')] bg-no-repeat bg-[length:160px_auto] h-48 w-1/3"></div>
-                  <div className="w-2/3">
+            <div className="flex w-full max-sm:flex-col">
+              <div className="max-sm:w-full w-1/2 mx-2 my-6 px-8 py-8 bg-white border-gray-300 border-2 rounded-xl">
+                <div className="flex max-sm:flex-col">
+                  <div className="h-48 w-1/3 max-sm:w-full max-sm:h-40">
+                    <img src="math.png" className="w-4/5"></img>
+                  </div>
+                  <div className="w-2/3 max-sm:w-full">
                     <p className="bg-sky-500 inline-block px-2 py-1 my-1 rounded-2xl text-xs text-white">Handicapped</p>
                     <div className="text-2xl font-semibold">Mathematics</div>
                     <div className="text-slate-500 text-base">Get course completion certificate and prizes for 7 grade students participate now.</div>
                     <br />
                     <br />
-                    <div className="px-4 py-2 bg-sky-500 text-center text-white rounded-md inline-block">Learn Mathematics with best Teachers</div>
+                    <div className="px-4 py-2 bg-sky-500 text-center text-white rounded-md inline-block max-sm:text-xs">Learn Mathematics with best Teachers</div>
                   </div>
                 </div>
               </div>
-              <div className="w-1/2 mx-2 my-6 px-8 py-8 bg-white border-gray-300 border-2 rounded-xl">
-                <div className="flex">
-                  <div className="bg-[url('../images/science.png')] bg-no-repeat bg-[length:160px_auto] h-48 w-1/3"></div>
-                  <div className="w-2/3">
+              <div className="max-sm:w-full w-1/2 mx-2 my-6 px-8 py-8 bg-white border-gray-300 border-2 rounded-xl">
+                <div className="flex max-sm:flex-col">
+                  <div className="h-48 w-1/3 max-sm:w-full max-sm:h-40">
+                    <img src="science.png" className="w-4/5"></img>
+                  </div>
+                  <div className="w-2/3 max-sm:w-full">
                     <p className="bg-sky-500 inline-block px-2 py-1 my-1 rounded-2xl text-xs text-white">Boys & Girls</p>
                     <div className="text-2xl font-semibold">Science</div>
                     <div className="text-slate-500 text-base">Get course completion certificate and prizes for 7 grade students participate now.</div>
                     <br />
                     <br />
-                    <div className="px-4 py-2 bg-sky-500 text-center text-white rounded-md inline-block">Learn Science with best Teachers</div>
+                    <div className="px-4 py-2 bg-sky-500 text-center text-white rounded-md inline-block max-sm:text-xs">Learn Science with best Teachers</div>
                   </div>
                 </div>
               </div>
