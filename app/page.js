@@ -77,7 +77,7 @@ export default function Home() {
                     <img src="cricket.png" className="h-40"></img>
                   </div>
 
-                  <div className="flex bg-sky-500 px-2 text-white text-sm h-6 rounded-full justify-center items-center">8:00 PM to 9:30PM</div>
+                  <div className="flex bg-sky-500 px-2 text-white text-sm h-6 rounded-full justify-center items-center">8:00 to 9:30PM</div>
                 </div>
                 <p className="bg-sky-500 inline-block px-1 py-1 rounded-2xl text-xs text-white">Boys & Girls</p>
                 <h1 className="text-[20px] font-semibold py-1">Cricket Coaching</h1>
@@ -160,7 +160,7 @@ export default function Home() {
                   <div className="h-44 w-1/2">
                     <img src="math.png"></img>
                   </div>
-                  <div className="flex bg-sky-500 px-2 text-white text-sm h-6 rounded-full justify-center items-center">8:00 PM to 9:30PM</div>
+                  <div className="flex bg-sky-500 px-2 text-white text-sm h-6 rounded-full justify-center items-center">8:00 to 9:30PM</div>
                 </div>
                 <p className="bg-sky-500 inline-block px-1 py-1 rounded-2xl text-xs text-white">Boys & Girls</p>
                 <h1 className="text-[20px] font-semibold py-1">Mathematics</h1>
@@ -340,18 +340,18 @@ export default function Home() {
 
           {/* Customer Feedback */}
 
-          <div className="max-w-full mx-auto px-40">
+          <div className="w-full px-40 max-sm:px-4">
             <h1 className="text-slate-800 font-bold text-3xl">What our customer say?</h1>
             <div className="flex justify-center items-center">
-              <div className="relative w-5/6 bg-white my-10 border-0 border-sky-500 rounded-xl px-32 py-20">
-                <img src="quote.png" className="absolute left-24 top-16" width="25px"></img>
+              <div className="relative w-5/6 bg-white my-10 ring-1 ring-sky-500 rounded-xl px-32 py-20 max-sm:w-full max-sm:px-10 max-sm:py-28">
+                <img src="quote.png" className="absolute left-24 top-16 max-sm:left-6 max-sm:top-24" width="25px"></img>
                 <h1 className="text-xl">I am proud to say that after a few months of taking this course...I passed my exam and am now an AWS Certified Cloud Practitioner! This content was exactly what the CCP exam covered.</h1>
                 <br />
                 <p className="text-2xl font-bold">-Nia Kyle</p>
-                <a href="" className="flex justify-center items-center h-full absolute bg-sky-500 w-20 top-0 right-0 rounded-r-xl">
+                <a href="" className="flex justify-center items-center h-full absolute bg-sky-500 w-20 top-0 right-0 rounded-r-xl max-sm:h-10 max-sm:w-full max-sm:rounded-b-xl max-sm:rounded-tr-none max-sm:bottom-0 max-sm:left-0 max-sm:top-auto max-sm:right-auto">
                   <img src="arrow.png" width="30px" alt=""></img>
                 </a>
-                <div className="h-48 absolute bg-sky-500 w-48 top-14 -left-24 rounded-full bg-[url('../images/robo.png')] bg-no-repeat bg-[length:192px_auto]"></div>
+                <img src="robo.png" className="h-48 w-48 absolute top-14 -left-24 max-sm:h-32 max-sm:w-32 max-sm:-top-10 max-sm:left-20"></img>
               </div>
             </div>
           </div>
