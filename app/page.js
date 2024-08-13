@@ -4,16 +4,16 @@ export default function Home() {
   return (
     <div>
       {/* Menu Bar */}
-      <header className="w-full h-20 bg-white shadow-md flex">
-        <div className="flex w-1/3 bg-white h-full"></div>
-        <div className="list-none flex w-1/3 h-full justify-center items-center">
+      <header className="w-full h-20 max-sm:h-14 bg-white shadow-md flex max-sm:flex-col">
+        <div className="flex w-1/3 bg-white h-full max-sm:hidden"></div>
+        <div className="list-none flex w-1/3 h-full justify-center items-center max-sm:w-full">
           <li><a href="#" className="px-4 py-2 hover:font-bold">Home</a></li>
           <li><a href="#" className="px-4 py-2 hover:font-bold">Courses</a></li>
           <li><a href="#" className="px-4 py-2 hover:font-bold">About Us</a></li>
           <li><a href="#" className="px-4 py-2 hover:font-bold">Contact</a></li>
         </div>
-        <div className="flex w-1/3 h-full justify-center items-center">
-          <button className=" text-black  px-7 py-2">Join as Teacher</button>
+        <div className="flex w-1/3 h-full justify-center items-center max-sm:hidden">
+          <button className=" text-black  px-7 py-2 max-sm:px-2">Join as Teacher</button>
           <button className=" text-black px-7 py-2">Log in</button>
           <button className="bg-yellow-400 text-black px-7 py-2 rounded-xl hover:bg-yellow-500 h-3/5">Sign Up</button>
         </div>
@@ -36,9 +36,9 @@ export default function Home() {
         <div className="max-w-full mx-auto px-10">
 
           {/* Our Course and DropDown */}
-          <div className="flex justify-between">
+          <div className="flex justify-between max-sm:flex-col">
             <div className="text-2xl font-bold text-gray-700 mb-6">Our Best Courses</div>
-            <div className="flex">
+            <div className="flex max-sm:justify-end">
               <div className="mx-2">
                 <button type="button" className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50" id="menu-button" aria-expanded="true" aria-haspopup="true">
                   Select Category
@@ -360,34 +360,26 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <div className="flex bg-white w-full py-10">
-        <div className="w-1/3 bg-[url('../images/group.png')] bg-no-repeat bg-[length:auto_100px] h-24 bg-center"></div>
-        <div className="w-1/6">
+      <div className="flex bg-white w-full py-10 max-sm:flex-col">
+        <div className="max-sm:w-full w-1/3 bg-[url('../images/group.png')] bg-no-repeat bg-[length:auto_100px] h-24 bg-center"></div>
+        <div className="max-sm:w-full w-1/6 text-center max-sm:my-5">
           <h1 className="font-semibold text-lg">ABOUT US</h1>
-          <br />
-          <a className="block font-normal" href="">Who we are</a>
-          <br />
+          <a className="block font-normal my-2" href="">Who we are</a>
           <a className="block font-normal" href="">Work with us</a>
         </div>
-        <div className="w-1/6">
+        <div className="w-1/6 max-sm:w-full text-center max-sm:my-5">
           <h1 className="font-semibold text-lg">EXPLORE</h1>
-          <br />
-          <a className="block font-normal" href="">Batches and Classes</a>
-          <br />
+          <a className="block font-normal  my-2" href="">Batches and Classes</a>
           <a className="block font-normal" href="">Community</a>
         </div>
-        <div className="w-1/6">
+        <div className="w-1/6 max-sm:w-full text-center max-sm:my-5">
           <h1 className="font-semibold text-lg">LEGAL</h1>
-          <br />
-          <a className="block font-normal" href="">Privacy Policy</a>
-          <br />
+          <a className="block font-normal my-2" href="">Privacy Policy</a>
           <a className="block font-normal" href="">Terms & Conditions</a>
         </div>
-        <div className="w-1/6">
+        <div className="w-1/6 max-sm:w-full text-center max-sm:my-5">
           <h1 className="font-semibold text-lg">CONTACT</h1>
-          <br />
-          <a className="block font-normal" href="">+92-2323092928</a>
-          <br />
+          <a className="block font-normal my-2" href="">+92-2323092928</a>
           <a className="block font-normal" href="">Icons</a>
         </div>
       </div>
